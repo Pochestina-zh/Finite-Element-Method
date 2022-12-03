@@ -3,6 +3,6 @@
 ## 1D_Poisson equation
 * 求解1维Poisson方程
   $$
-  -\frac{d}{dx}(c(x)\frac{du(x)}{dx})=f(x),\quad
+  -\frac{d}{dx}(c(x)\frac{du(x)}{dx})=f(x),\quad,0\leq x \geq 1
   $$
 * 可选择线性元或者二次元求解
