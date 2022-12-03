@@ -3,6 +3,6 @@
 ## 1D_Poisson equation
 * 求解1维Poisson方程
   $$
-  \sqrt{x}
+  -\frac{d}{dx}
   $$
 * 可选择线性元或者二次元求解
