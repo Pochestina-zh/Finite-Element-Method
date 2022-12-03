@@ -3,9 +3,11 @@
 ## 1D_Poisson equation
 * 求解1维Poisson方程
 * $$
-  \begin{cases}
-  -\frac{d}{dx}(c(x)\frac{du(x)}{dx})=f(x),\quad,0\leq x \leq 1\\
-  u(0)=0,u(1)=cos(1)
-  \end{cases}
+  \left{
+  \begin{aligned}
+  &-\frac{d}{dx}(c(x)\frac{du(x)}{dx})=f(x),\quad,0\leq x \leq 1\\
+  &u(0)=0,u(1)=cos(1)
+  \end{aligned}
+  \right.
   $$
 * 可选择线性元或者二次元求解
