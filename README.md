@@ -3,6 +3,6 @@
 ## 1D_Poisson equation
 * 求解1维Poisson方程
   $$
-  -\frac{d}{dx}
+  -\frac{d}{dx}(c(x)\frac{du(x)}{dx})=f(x),\quad
   $$
 * 可选择线性元或者二次元求解
