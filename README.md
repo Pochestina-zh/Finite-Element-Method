@@ -2,6 +2,7 @@
 本人学习何晓明老师（密苏里科技大学）课程后，整理的详细代码和作业习题
 ## 1D_Poisson equation
 * 求解1维Poisson方程
+* $$
   \begin{equation}
   \left\{
   \begin{aligned}
@@ -10,4 +11,5 @@
   \end{aligned}
   \right.
   \end{eqaution}
+  $$
 * 可选择线性元或者二次元求解
