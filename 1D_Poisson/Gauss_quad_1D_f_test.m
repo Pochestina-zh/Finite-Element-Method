@@ -1,6 +1,6 @@
 function intergral=Gauss_quad_1D_f_test(right_fun,Gauss_weight,Gauss_nodes,vertices,basis_type_test,basis_index_test,basis_der_x_test)
 
-Gpn=size(Gauss_nodes);
+Gpn=length(Gauss_nodes);
 intergral=0;
 
 %% Gauss quadrature

@@ -3,6 +3,7 @@ function b=assemble_vector_1D(right_fun,P,T,Pb_test,Tb_test,basis_type_test,basi
 number_element=size(T,2);  % the number of the mesh elements
 
 vector_size=size(Pb_test,2);     % size of the load vector
+
 b=sparse(vector_size,1);
 
 
@@ -21,5 +22,4 @@ for n=1:number_element
         end
         
 end
-    
 

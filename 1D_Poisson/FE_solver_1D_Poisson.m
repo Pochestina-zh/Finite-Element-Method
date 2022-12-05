@@ -42,12 +42,12 @@ b=assemble_vector_1D('function_f',P,T,Pb_test,Tb_test,basis_type_test,basis_der_
 
 % boundary treatment
 [A,b]=treat_Dirichlet_boundary('function_g',boundarynodes,A,b,Pb_trial);
-
-
+A
+b
 % solution of linear system
 solution=A\b;
 
 
 % error of FEM
 absolute_error=maximum_error_FE_nodes('exact_solution',solution,Pb_trial)
-
+test=0.25*cos(0.25)

@@ -20,10 +20,6 @@ for n=1:number_elements
            
            int_value=Gauss_quad_1D_trial_test(coe_fun,Gauss_weight,Gauss_nodes,vertices,basis_type_trial,alpha,basis_der_x_trial,basis_type_test,beta,basis_der_x_test);
            
-%           S(beta,alpha)=int_value;    % unit stiffness matrix
-
-%           i=Tb_test(beta,n);j=Tb_trial(alpha,n);
-           
            A(Tb_test(beta,n),Tb_trial(alpha,n))=A(Tb_test(beta,n),Tb_trial(alpha,n))+int_value;
            
        end

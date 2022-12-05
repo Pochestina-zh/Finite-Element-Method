@@ -12,7 +12,7 @@ for k=1:number_boundarynodes
     A(i,:)=0;
     A(i,i)=1;
     
-    b(i)=feval(boundary_fun,Pb_trial(:,i)); % force the vector to satisfy boundary function
+    b(i,1)=feval(boundary_fun,Pb_trial(:,i)); % force the vector to satisfy boundary function
     
     elseif boundarynodes(1,k)==-2   % Neumann condition
 %        ?
@@ -25,4 +25,5 @@ for k=1:number_boundarynodes
     end
     
 end
+
 

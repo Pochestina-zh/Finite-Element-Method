@@ -23,9 +23,9 @@ if basis_type==101
         
     elseif basis_index==2
         if basis_der_x==0
-            result=(vertices(2)-x)/h;
+            result=(x-vertices(1))/h;
         elseif basis_der_x==1
-            result=-1/h;
+            result=1/h;
         elseif basis_der_x>=2 && rem(basis_der_x,1)==0
             result=0;
         else
@@ -37,3 +37,4 @@ if basis_type==101
 elseif basis_type==102
 %    ?
 end
+
