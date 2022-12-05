@@ -5,11 +5,11 @@
 $$
 -\frac{d}{dx}(c(x)\frac{du(x)}{dx})=f(x)
 $$
-* 求解1维Poisson方程
+* 任务：求解1维Poisson方程
   $$
   -\frac{d}{dx}(e(x)\frac{du(x)}{dx})=-e(x)[cos(x)-2sin(x)-xcos(x)-xsin(x)],\quad,0\leq x \leq 1
   $$
   $$
   u(0)=0,u(1)=cos(1)
   $$
-* 程序可供用户选择线性元或者二次元求解
+* 功能：可供用户选择线性元或者二次元求解
