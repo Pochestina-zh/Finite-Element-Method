@@ -3,7 +3,7 @@
 ## 1D_Poisson equation
 * 求解1维Poisson方程
   $$
-  -\frac{d}{dx}(c(x)\frac{du(x)}{dx})=-e(x)[cos(x)-2sin(x)-xcos(x)-xsin(x)],\quad,0\leq x \leq 1
+  -\frac{d}{dx}(e(x)\frac{du(x)}{dx})=-e(x)[cos(x)-2sin(x)-xcos(x)-xsin(x)],\quad,0\leq x \leq 1
   $$
   $$
   u(0)=0,u(1)=cos(1)
